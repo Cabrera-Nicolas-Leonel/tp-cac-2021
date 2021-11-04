@@ -211,7 +211,7 @@ header{
 }
 
 .icon-soc {
-  margin: 0 30px;
+  margin: 0 25px;
   font-size: 3rem;
   color: white;
   padding: 20px 0;
@@ -315,7 +315,7 @@ body{
 }
 
 /* Referente al pie */
- #icon-soc { /*iconos de las redes*/
+ .icon-soc { /*iconos de las redes*/
  margin: 0 15px;
  font-size: 3rem;
  color: white;
