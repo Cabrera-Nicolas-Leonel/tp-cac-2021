@@ -77,7 +77,8 @@ header{
 }
 
 .nav-bar>li>a{
-  transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s; 
+  
 }
 
 .nav-bar>li>a:hover{
@@ -317,7 +318,7 @@ body{
 /* Referente al pie */
  .icon-soc { /*iconos de las redes*/
  margin: 0 15px;
- font-size: 3rem;
+ font-size: 2em;
  color: white;
  padding: 20px 0;
       }}
