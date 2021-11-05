@@ -33,9 +33,9 @@ body {
 .clickeable{
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
-  font-size: 1.2em;
   color: white;
-  text-decoration: none;
+  text-decoration: none;  
+  
 }
 
 header{
@@ -56,6 +56,7 @@ header{
   background-color: rgba(4, 127, 4, 1);
   border: none;
   border-radius:1em;
+  
 }
 .contact-btn:hover{
   background-color: rgba(4, 127, 4, 0.7);
@@ -65,19 +66,27 @@ header{
 .logo-principal,.contact-btn {
   cursor: pointer;
 }
+nav {
+  height: 80px;
+  
 
+}
 .nav-bar{
+  
   list-style: none;
+  height: 80px;
 }
 .nav-bar>li{
+ 
   display: inline-block;
   padding: 0px 25px;
-  margin-top: 20px;
+  margin-top: 29px;
   border-radius: 5px 5px 5px 5px; 
 }
 
 .nav-bar>li>a{
   transition: all 0.4s ease 0s; 
+ 
   
 }
 
@@ -87,8 +96,10 @@ header{
   border-radius: 1em;
 }
 
-
-
+.contact-btn,.nav-bar>li>a
+{
+  font-size: 1.2em;
+}
 /*Fin Nav*/
 
 /*--------------------------------------------main------------------------------------------------------------------------------------*/
@@ -147,6 +158,9 @@ header{
   padding-top: 20px;
 }
 
+.frame  { 
+  padding-left: 30px;
+}
 
 
 /*--------------------------Subrayado-----------*/
@@ -159,8 +173,7 @@ header{
 .anclas-sub{
   
   color: rgb(154, 206, 124);
-  border: solid 2px green;
-  border-radius: 3px;
+    border-radius: 3px;
   }
 
 /*--------Imagenes de los bosese------------*/
@@ -200,7 +213,7 @@ header{
   text-align: center;
 }
 #redes > h4 {
-  padding-left: 15px;
+  text-align: center;
 }
 #redes > ul {
   align-items: center;
@@ -208,12 +221,22 @@ header{
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  margin: 20px 40px 20px 40px;
+  justify-content: space-between;
+  margin: 40px 0px;
+  padding: 0px 40px;
+}
+#redes>ul>li>a>i{
+  text-align: center;
+ 
+}
+#redes>ul>li>a{
+  text-decoration: none;
+  color: white;
 }
 
 .icon-soc {
   margin: 0 25px;
-  font-size: 3rem;
+  font-size: 4em;
   color: white;
   padding: 20px 0;
   }
@@ -245,9 +268,17 @@ body{
           "contenido"
           "footer-part";
       }
-    /* Referente al nav en tablet */
+   
 
-
+    body {
+      background: url("../img/paredmobile.jpg") no-repeat fixed center;
+      background-color: black !important;
+      margin: auto;
+      background-size: 100vh;
+      color: white;
+      top: 0;
+      left: 0;
+    }
 
 }
 
@@ -269,7 +300,7 @@ body{
     background: url("../img/paredmobile.jpg") no-repeat fixed center;
     background-color: black !important;
     margin: auto;
-    background-size: 99%;
+    background-size: 100vh;
     color: white;
     top: 0;
     left: 0;
